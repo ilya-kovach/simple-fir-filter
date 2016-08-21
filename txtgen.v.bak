@@ -1,0 +1,53 @@
+
+module txtgen(
+	input wire clk,
+	input wire eop,
+	input wire [7:0]ibyte,
+	input wire byte_rdy,
+	input wire usb_reset,
+	output wire [7:0]byte_wr,
+	output wire wr
+	);
+
+reg eop_ = 0;
+always @(posedge clk)
+	eop_ <= eop;
+
+wire eop_imp0; assign eop_imp0 = eop;
+wire eop_imp1; assign eop_imp1 = eop_;
+
+reg [4:0]rst_;
+always @(posedge clk)
+	rst_ <= {rst_[3:0],usb_reset};
+
+//delay
+reg [1:0]byte_rdy_;
+always @(posedge clk)
+	byte_rdy_ <= {byte_rdy_[0],byte_rdy};
+
+//translate into hex form
+wire [3:0]four_bits;
+assign four_bits = byte_rdy ? ibyte[7:4] : ibyte[3:0];
+wire [7:0]hex_char;
+assign hex_char = (four_bits < 10) ?
+							8'h30 + four_bits :
+							8'h41 + four_bits - 10 ;
+
+wire hex_time;
+assign hex_time = byte_rdy | byte_rdy_[0];
+
+assign byte_wr =  
+						rst_[0]  ? 8'h52 : //R
+						rst_[1]  ? 8'h53 : //S
+						rst_[2]  ? 8'h54 : //T
+						rst_[3]  ? 8'h0D : 
+						rst_[4]  ? 8'h0A :
+						
+						eop_imp0 ? 8'h0D : 
+						eop_imp1 ? 8'h0A : 
+						
+						hex_time  ? hex_char : 8'h20 ;
+
+assign wr = |rst_ | eop_imp0 | eop_imp1 | byte_rdy | byte_rdy_[0] | byte_rdy_[1];
+
+endmodule

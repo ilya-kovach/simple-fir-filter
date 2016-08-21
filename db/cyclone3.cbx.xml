@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="cyclone3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst13" CBX_FILE_NAME="lpm_constant_s84.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst4" CBX_FILE_NAME="lpm_constant_9a4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_hq14.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst5" CBX_FILE_NAME="lpm_constant_n84.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_irc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_7fi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst15" CBX_FILE_NAME="lpm_constant_n84.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst6" CBX_FILE_NAME="lpm_constant_s84.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst7" CBX_FILE_NAME="lpm_constant_8a4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst10|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_k3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst17" CBX_FILE_NAME="lpm_constant_9a4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst11|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_k3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult7|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_trigger_flow_sel:\generated:ela_trigger_flow_mgr_entity" CBX_FILE_NAME="sld_ela_trigger_flow_sel_an31.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_5fi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst18" CBX_FILE_NAME="lpm_constant_4a4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst27" CBX_FILE_NAME="lpm_constant_ke4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst12|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_k3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult8|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|fir_filter_verilog:inst6|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_2jh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst20" CBX_FILE_NAME="lpm_constant_je4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst22|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_l3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult1|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult9|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_4uf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_p1j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|fir_filter_verilog:inst6|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_3jh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst21" CBX_FILE_NAME="lpm_constant_2d4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|LPM_CONSTANT:inst3" CBX_FILE_NAME="lpm_constant_4a4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst14|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_k3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst23|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_l3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|altpll0:inst5|altpll:altpll_component" CBX_FILE_NAME="altpll0_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|fir_filter_verilog:inst6|altshift_taps:summa15_rtl_0" CBX_FILE_NAME="shift_taps_25m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|fir_filter_verilog:inst6|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_3jh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst24|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_m3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult3|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|fir_filter_verilog:inst6|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_3jh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst16|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_l3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst25|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_e3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult4|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|fir_filter_verilog:inst6|lpm_mult:Mult4|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_2jh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst26|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_m3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult5|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|lpm_sub128:inst2|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2qj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|add_param1:inst9|lpm_add_sub:inst" CBX_FILE_NAME="add_sub_k3f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|my_fir:inst|lpm_mult1:mult6|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_82p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cyclone3|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_78j.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,11 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult9|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult1|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult2|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult3|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult4|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult5|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult6|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult7|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,my_fir:inst|lpm_mult1:mult8|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,my_fir:inst|lpm_mult1:mult9|lpm_mult:lpm_mult_component|mult_82p:auto_generated|mac_mult1,
