@@ -17,7 +17,7 @@
 ![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/firfilter.PNG)
 
 ADC_D - входной сигнал
-result и fir_out - входной сигнал, прошейший фильтр.
+result и fir_out - выходные сигналы, прошедшие фильтр my_fir и fir_filter_verilog соответственно.
 ![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/signal-tap.PNG)
 
 В итоге мы видим, что наши фильтры фильтруют входной сигнал одинаково.
