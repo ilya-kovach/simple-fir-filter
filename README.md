@@ -13,7 +13,7 @@
 
 Общий вид схемы:
 ![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/shema.PNG)
-В схеме находятся 2 фильтра: фильтр на Verilog(fir_filter_verilog) и фильтр ???????(my_fir):
+В схеме находятся 2 фильтра: фильтр на Verilog(fir_filter_verilog) и фильтр в виде схемы(my_fir):
 ![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/firfilter.PNG)
 
 ADC_D - входной сигнал
