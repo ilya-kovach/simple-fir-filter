@@ -16,7 +16,7 @@
 В схеме находятся 2 фильтра: фильтр на Verilog(fir_filter_verilog) и фильтр в виде схемы(my_fir):
 ![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/firfilter.PNG)
 
-ADC_D - входной сигнал
+ADC_D - входной сигнал.
 result и fir_out - выходные сигналы, прошедшие фильтр my_fir и fir_filter_verilog соответственно.
 ![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/signal-tap.PNG)
 
