@@ -18,6 +18,6 @@
 
 ADC_D - входной сигнал
 result и fir_out - входной сигнал, прошейший фильтр.
-![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/audasity.PNG)
+![Иллюстрация к проекту](https://github.com/ilya-kovach/simple-fir-filter/raw/master/pictures/signal-tap.PNG)
 
 В итоге мы видим, что наши фильтры фильтруют входной сигнал одинаково.
